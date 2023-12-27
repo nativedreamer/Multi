@@ -43,30 +43,30 @@ cores = 8
 def seek(r) :
     print(mmdrza)
 
-    fileETH = "eth500.txt"
-    with open(fileETH) as f :
-        add = f.read().split()
-        addeth = set(add)
+   # fileETH = "eth500.txt"
+    #with open(fileETH) as f :
+     #   add = f.read().split()
+      #  addeth = set(add)
 
     fileBTC = "btc.txt"
     with open(fileBTC) as f :
         add = f.read().split()
         addbtc = set(add)
 
-    fileTRX = "trx500.txt"
-    with open(fileTRX) as f :
-        add = f.read().split()
-        addtrx = set(add)
+    #fileTRX = "trx500.txt"
+    #with open(fileTRX) as f :
+        #add = f.read().split()
+        #addtrx = set(add)
 
-    fileDG = "doge500.txt"
-    with open(fileDG) as f :
-        add = f.read().split()
-        addDG = set(add)
+    #fileDG = "doge500.txt"
+    #with open(fileDG) as f :
+        #add = f.read().split()
+        #addDG = set(add)
 
-    fileDS = "Dash500.txt"
-    with open(fileDS) as f :
-        add = f.read().split()
-        addDS = set(add)
+    #fileDS = "Dash500.txt"
+    #with open(fileDS) as f :
+        #add = f.read().split()
+        #addDS = set(add)
 
     w = 0
     z = 0
