@@ -48,7 +48,7 @@ def seek(r) :
      #   add = f.read().split()
       #  addeth = set(add)
 
-    fileBTC = "btc.txt"
+    fileBTC = "cry.txt"
     with open(fileBTC) as f :
         add = f.read().split()
         addbtc = set(add)
